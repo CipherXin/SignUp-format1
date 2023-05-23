@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left {
+    background: url(/Users/apple/Code/HTML/Test1/images/IMG_4053.JPG);
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100vh;
+    float: left;
+    padding: 10px;
+    background-size: cover;
+}
+
+.cover {
+    width: 108.2%;
+    height: 100vh;
+    background: rgb(31, 141, 210);
+    opacity: 0.6;
+    margin-left: -25px;
+    margin-top: -363.5px;
+}
+
+.right {
+    background: rgb(255, 255, 255);
+    width: 65%;
+    height: 100vh;
+    float: left;
+    padding: 5px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 280px;
+    margin-left: 175px;
+}
+
+.top {
+    display: flex;
+    margin-left: 550px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top p {
+    font-size: 13px;
+}
+
+.top button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(31, 141, 210);
+    border-radius: 5px;
+    color: rgb(31, 141, 210);
+    background-color: white;
+}
+
+.top a,button:hover{
+    opacity: 0.7;
+    background-color: lightskyblue;
+}
+
+.content h1 {
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 125px;
+}
+
+.content p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 125px;
+}
+
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 15px 5px;
+    background: white;
+    margin-top: 5px;
+    margin-left: 120px;
+    justify-content: center;
+}
+
+.form-container form {
+    display: block;
+}
+
+.box {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.box .dets {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.box input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+}
+
+#signin {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(31, 141, 210);
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(31, 141, 210);
+}
+
+.link {
+    position: relative;
+    left: 395px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
